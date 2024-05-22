@@ -76,7 +76,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -109,7 +109,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -142,7 +142,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -177,7 +177,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -210,7 +210,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -243,7 +243,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -278,7 +278,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -311,7 +311,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>
@@ -344,7 +344,7 @@ export default function About() {
     <p className="font-normal text-xs lg:text-sm px-5 ml-44 uppercase text-white 2xl:text-3xl">
         5% slots
     </p>
-    <a href="/" className="font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
             read more </a>
     </div>
     </div>

@@ -2,10 +2,10 @@ export default function Ranking() {
     return (
 <section className="relative">
 <div className="opacity-95 h-full z-20">
-<img src='https://i.ibb.co/zNHsdqb/Rectangle-310.png' className="h-full md:h-[100rem] md:w-full" alt='banner'/>
+<img src='https://i.ibb.co/BPnyC57/Rectangle-286.png' className="h-full md:h-[100rem] md:w-full" alt='banner'/>
   <div className="grid w-full grid-cols-1 gap-16 lg:grid-cols-1">
     <div className="flex flex-col justify-start items-center">
-    <svg width="124" height="2" className='hidden md:block z-40 -mt-[95rem] flex flex-row justify-end items-end' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="124" height="2" className='absolute hidden md:block z-40 -mt-[97rem] ml-96 flex flex-row justify-end items-end' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M124 1L0 1" stroke="url(#paint0_linear_75_20)"/>
         <defs>
       <linearGradient id="paint0_linear_75_20" x1="98.0297" y1="31.9994" x2="1.23096" y2="-7.00838" gradientUnits="userSpaceOnUse">
@@ -14,7 +14,7 @@ export default function Ranking() {
       </linearGradient>
       </defs>
       </svg>
-      <svg width="124" height="2" className='hidden md:block z-40 rotate-180 -mt-114 flex flex-row justify-start items-start' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="124" height="2" className='absolute hidden md:block z-40 rotate-180 -mt-[97rem] -ml-96 flex flex-row justify-start items-start' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M124 1L0 1" stroke="url(#paint0_linear_75_20)"/>
         <defs>
       <linearGradient id="paint0_linear_75_20" x1="98.0297" y1="31.9994" x2="1.23096" y2="-7.00838" gradientUnits="userSpaceOnUse">
@@ -23,7 +23,7 @@ export default function Ranking() {
       </linearGradient>
       </defs>
       </svg>
-      <span className="font-[Cinzel] text-xl lg:text-2xl uppercase 2xl:text-7xl font-bold text-[#DC8F69] uppercase z-40 mt-143">LATEST WINNERS</span>
+      <span className="font-[Cinzel] text-xl lg:text-2xl uppercase 2xl:text-7xl font-bold text-[#DC8F69] uppercase z-40 -mt-150">LATEST WINNERS</span>
     <h2 className="font-[Cinzel] text-xl lg:text-6xl uppercase 2xl:text-7xl font-bold text-[#F3D284] uppercase z-40">
     PLAYER OF THE YEAR</h2>
     </div>
@@ -52,7 +52,7 @@ export default function Ranking() {
       <img className='md:ml-143 ml-0 mt-40 hidden md:block' src='https://i.ibb.co/PxB8xsB/Group-4828.png' alt=''/>
       <img className='ml-0 md:-ml-144 hidden md:block' src='https://i.ibb.co/qDpc0s1/Group-4817.png' alt=''/>
   </div>
-  <div className="grid w-full grid-cols-1 gap-12 lg:grid-cols-1 mt-32 z-40">
+  <div className="grid w-full grid-cols-1 gap-12 lg:grid-cols-1 mt-1 z-40">
   <div className="flex-col justify-center items-center h-full md:w-full">
     <div className="p-0 md:p-28">
     <img className="-ml-14" src="https://i.ibb.co/R3PP7L0/Group-12.png" alt=""/>
@@ -61,13 +61,13 @@ export default function Ranking() {
       Makenna Baptista
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      Player's city and statek
+      Springfield/Illinois
+      </h2>
+      <h2 className="text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      25
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      number of events participated in
-      </h2>
-      <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      overall rank
+      7th
       </h2>
       <h2 className="pl-5 text-xl md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
@@ -81,13 +81,13 @@ export default function Ranking() {
       Makenna Baptista
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      Player's city and state
+      Springfield/Illinois
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      number of events participated in
+      25
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      overall rank
+      7th
       </h2>
       <h2 className="pl-5 text-xl md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
@@ -101,13 +101,13 @@ export default function Ranking() {
       Makenna Baptista
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      Player's city and state
+      Springfield/Illinois
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      number of events participated in
+      25
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      overall rank
+      7th
       </h2>
       <h2 className="pl-5 text-xl md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
@@ -121,13 +121,13 @@ export default function Ranking() {
       Makenna Baptista
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      Player's city and state
+      Springfield/Illinois
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      number of events participated in
+      25
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      overall rank
+      7th
       </h2>
       <h2 className="pl-5 text-xl md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
@@ -141,13 +141,13 @@ export default function Ranking() {
       Makenna Baptista
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      Player's city and state
+      Springfield/Illinois
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      number of events participated in
+      25
       </h2>
       <h2 className=" text-2xl lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
-      overall rank
+      7th
       </h2>
       <h2 className="pl-5 text-xl md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
@@ -159,7 +159,7 @@ export default function Ranking() {
       <img className='-mt-116 ml-0 md:ml-145  hidden md:block' src='https://i.ibb.co/QjdrBVX/Group-4875.png' alt=''/>
   </div>
  <div className="flex flex-col justify-center items-center">
- <a href="/" className="my-0 -mt-20 inline-flex flex-col justify-center items-center font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl px-8 py-3 text-center font-medium text-white">
+ <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black my-0 -mt-48 inline-flex flex-col justify-center items-center font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl px-8 py-3 text-center font-medium text-white">
             more </a>
  </div>
   <div>

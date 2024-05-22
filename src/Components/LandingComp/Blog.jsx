@@ -3,24 +3,25 @@ export default function Blog() {
 <section className="relative p-10 bg-[#13181C]">
   <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-1 flex justify-center items-center">
     <div className="flex flex-col justify-center items-center mt-5 mb-5">
-    <svg width="124" height="2" className='hidden md:block z-20 flex flex-row justify-end items-end' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M124 1L0 1" stroke="url(#paint0_linear_75_20)"/>
-        <defs>
-      <linearGradient id="paint0_linear_75_20" x1="98.0297" y1="31.9994" x2="1.23096" y2="-7.00838" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFD59A"/>
-      <stop offset="1" stop-color="#FFD59A" stop-opacity="0.15"/>
-      </linearGradient>
-      </defs>
-      </svg>
-      <svg width="124" height="2" className='hidden md:block z-20 rotate-180 flex flex-row justify-start items-start' viewBox="0 0 124 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M124 1L0 1" stroke="url(#paint0_linear_75_20)"/>
-        <defs>
-      <linearGradient id="paint0_linear_75_20" x1="98.0297" y1="31.9994" x2="1.23096" y2="-7.00838" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFD59A"/>
-      <stop offset="1" stop-color="#FFD59A" stop-opacity="0.15"/>
-      </linearGradient>
-      </defs>
-      </svg>
+    <svg width="44" height="2" viewBox="0 0 44 2" className="absolute -mt-24 -ml-44 hidden md:block z-20 flex flex-row justify-start items-start" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 1L0 0.999996" stroke="url(#paint0_linear_75_364)"/>
+<defs>
+<linearGradient id="paint0_linear_75_364" x1="41" y1="1.00007" x2="-5.00001" y2="-8.49995" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3D284"/>
+<stop offset="1" stop-color="#F3D284" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
+
+<svg width="44" height="2" viewBox="0 0 44 2" className="absolute -mt-24 ml-44 hidden rotate-180 md:block z-20 flex flex-row justify-start items-start" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 1L0 0.999996" stroke="url(#paint0_linear_75_364)"/>
+<defs>
+<linearGradient id="paint0_linear_75_364" x1="41" y1="1.00007" x2="-5.00001" y2="-8.49995" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3D284"/>
+<stop offset="1" stop-color="#F3D284" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
       <span className="font-[Cinzel] text-xl lg:text-2xl uppercase 2xl:text-7xl font-bold text-[#DC8F69] uppercase z-40">our</span>
     <h2 className="my-5 font-[Cinzel] text-xl lg:text-6xl uppercase 2xl:text-7xl font-bold text-[#FF0205] uppercase">
     Blogs</h2>

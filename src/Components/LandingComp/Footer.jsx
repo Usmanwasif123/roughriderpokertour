@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
 <section className="relative p-10 bg-[#13181C]">
-    <div className='bg-[#13181C] rounded-full flex flex col justify-center items-center -mt-32'>
+    <div className='bg-[#13181C] flex flex col justify-center items-center -mt-32'>
     <img className='h-[5rem]' src='https://i.ibb.co/nC3mS5B/image.png' alt=''/>
     </div>
   <div className="grid w-full grid-cols-1 gap-52 lg:grid-cols-3">
@@ -148,7 +148,7 @@ export default function Footer() {
           </div>
       </div>
       </div>
-      <div class="mt-80 border-t border-gray-100 pt-1 px-100 -ml-97"></div>
+      <div class="mt-80 border-t border-gray-100 pt-1 px-100 -ml-101"></div>
       <div className="mt-80">
       <ul className="mt-8 mb-10 flex justify-center gap-6 sm:justify-start md:gap-8 -ml-115">
           <li>
@@ -222,7 +222,6 @@ export default function Footer() {
       <p className="text-sm text-white md:text-lg 2xl:text-xl -ml-116">&copy; Copyright © 2024 ROUGHRIDER POKER TOUR . All rights reserved. </p>
       </div>
   </div>
-
 </section>
 
     )}
