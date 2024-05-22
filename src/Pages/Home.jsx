@@ -7,7 +7,7 @@ import Register from "../Components/LandingComp/Register";
 const Home = () => {
     return (
     <>
-    <div className="px-2 md:px-12">
+    <div className="px-2 md:px-10">
     <Navbar/>
     </div>
     <Banner/>
