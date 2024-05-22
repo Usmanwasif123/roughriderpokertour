@@ -23,6 +23,9 @@ export default {
         '104': '22rem',
 
       },
+      padding: {
+        '100': '35rem'
+      },
       margin: {
         '100': '32rem',
         '97': '25rem',
@@ -67,6 +70,11 @@ export default {
          '140': '12.5rem',
          '141': '38.5rem',
          '142': '6.2rem',
+         '143': '47rem',
+         '144': '59rem',
+         '145': '77.9rem',
+         '146': '20rem',
+         '147': '21rem',
          
       },
       translate: {

@@ -31,7 +31,7 @@ export default function Banner() {
         Where every All-in has its moment
         </h1>
         <p className="my-5 font-[Cinzel]  capitalize text-[#E5B6B6] text-3xl lg:text-2xl sm:text-3xl 2xl:text-4xl">Where every All-in has its moment</p>
-        <a href="/about-us" className="my-4 font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl px-8 py-3 text-center font-medium text-white">
+        <a href="/" className="my-4 font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl px-8 py-3 text-center font-medium text-white">
             sign up </a>
       </div>
     </div>

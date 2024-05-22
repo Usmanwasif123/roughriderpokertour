@@ -2,6 +2,9 @@ import Navbar from "../Components/LandingComp/Navbar";
 import Banner from "../Components/LandingComp/Banner";
 import About from "../Components/LandingComp/About";
 import Register from "../Components/LandingComp/Register";
+import Ranking from "../Components/LandingComp/Ranking";
+import Blog from "../Components/LandingComp/Blog";
+import Footer from "../Components/LandingComp/Footer";
 
 
 const Home = () => {
@@ -13,7 +16,9 @@ const Home = () => {
     <Banner/>
     <About/>
     <Register/>
-   
+    <Ranking/>
+    <Blog/>
+    <Footer/>
     </>
 
     
