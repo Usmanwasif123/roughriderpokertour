@@ -33,10 +33,10 @@ export default function Register() {
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-[#F3D284] mb-5">
     01
       </span>
-      <h2 className="text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
+      <h2 className="font-[Cinzel] text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
       SignUp
       </h2>
-      <p className="text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="font-[Inter] text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
       <div className="flex flex-col justify-center items-center">
       <img className="h-10 w-20" src="https://i.ibb.co/qJpTDfJ/Group-6.png" alt=""/> 
@@ -46,10 +46,10 @@ export default function Register() {
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-[#F3D284] mb-5">
     02
       </span>
-      <h2 className="text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
+      <h2 className="font-[Cinzel] text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
       Deposit
       </h2>
-      <p className="text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="font-[Inter] text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
       <div className="flex flex-col justify-center items-center">
       <img className="h-10 w-20" src="https://i.ibb.co/qJpTDfJ/Group-6.png" alt=""/> 
@@ -59,10 +59,10 @@ export default function Register() {
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-[#F3D284] mb-5">
     03
       </span>
-      <h2 className="text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
+      <h2 className="font-[Cinzel] text-2xl lg:text-xl 2xl:text-5xl font-bold uppercase text-white mt-5 mb-5">
       Get Bonus
       </h2>
-      <p className="text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="font-[Inter] text-base text-xl lg:text-xl 2xl:text-2xl text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>
       </div>
   </div>

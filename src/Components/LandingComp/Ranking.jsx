@@ -32,19 +32,19 @@ export default function Ranking() {
   <div className="flex flex-row justify-center items-center h-full md:w-104 2xl:w-[160rem] md:space-x-48">
     <div className="mt-0 md:mt-20">
     <img className="mt-5 mb-5 ml-5 md:ml-0 h-16 md:h-40" src="https://i.ibb.co/fXcp3qR/Group-9.png" alt=""/>
-      <h2 className="ml-2 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#EEEAF3] mt-5 mb-5">
+      <h2 className="font-[Cinzel] ml-2 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#EEEAF3] mt-5 mb-5">
       Stephank Smith
       </h2>
       </div>
       <div className="">
      <img className="ml-0 md:ml-0 -mt-16 md:mt-5 mb-5 h-36 md:h-56" src="https://i.ibb.co/1vxtZhC/Group-10.png" alt=""/>
-      <h2 className="ml-5 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#FFE9CA] mt-5 mb-5">
+      <h2 className="font-[Cinzel] ml-5 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#FFE9CA] mt-5 mb-5">
       Stephank Smith
       </h2>
       </div>
       <div className="mt-0 md:mt-20">
     <img className="mt-5 mb-5 ml-5 md:ml-0 h-16 md:h-40" src="https://i.ibb.co/GWjRcjP/Group-11.png" alt=""/>
-      <h2 className="ml-5 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#FFE9CA] mt-5 mb-5">
+      <h2 className="font-[Cinzel] ml-5 md:ml-0 text-sm lg:text-lg 2xl:text-5xl font-bold uppercase text-[#FFE9CA] mt-5 mb-5">
       Stephank Smith
       </h2>
       </div>
@@ -57,19 +57,19 @@ export default function Ranking() {
     <div className="p-10 md:p-28">
     <img className="-ml-5 md:-ml-14 h-28 md:h-24" src="https://i.ibb.co/R3PP7L0/Group-12.png" alt=""/>
     <div className="bg-white rounded-xl grid grid-cols-1 gap-12 lg:grid-cols-5 -mt-131">
-      <h2 className="mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Makenna Baptista
       </h2>
-      <h2 className="ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Springfield/Illinois
       </h2>
-      <h2 className="ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       25
       </h2>
-      <h2 className="ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       7th
       </h2>
-      <h2 className="pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
+      <h2 className="font-[Cinzel] pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
       </h2>
       </div>
@@ -77,19 +77,19 @@ export default function Ranking() {
       <div className="p-10 md:p-28 md:-mt-40">
     <img className="-ml-5 md:-ml-14 h-28 md:h-24" src="https://i.ibb.co/vxZ4Xpm/Group-13.png" alt=""/>
     <div className="bg-white rounded-xl grid grid-cols-1 gap-12 lg:grid-cols-5 -mt-131">
-      <h2 className="mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Makenna Baptista
       </h2>
-      <h2 className=" ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Springfield/Illinois
       </h2>
-      <h2 className=" ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       25
       </h2>
-      <h2 className=" ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       7th
       </h2>
-      <h2 className="pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
+      <h2 className="font-[Cinzel] pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
       </h2>
       </div>
@@ -97,19 +97,19 @@ export default function Ranking() {
       <div className="p-10 md:p-28 md:-mt-40">
     <img className="-ml-5 md:-ml-14 h-28 md:h-24" src="https://i.ibb.co/C7CswzF/Group-14.png" alt=""/>
     <div className="bg-white rounded-xl grid grid-cols-1 gap-12 lg:grid-cols-5 -mt-131">
-      <h2 className="mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Makenna Baptista
       </h2>
-      <h2 className="ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Springfield/Illinois
       </h2>
-      <h2 className="ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       25
       </h2>
-      <h2 className="ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       7th
       </h2>
-      <h2 className="pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
+      <h2 className="font-[Cinzel] pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
       </h2>
       </div>
@@ -117,19 +117,19 @@ export default function Ranking() {
       <div className="p-10 md:p-28 md:-mt-40">
     <img className="-ml-5 md:-ml-14 h-28 md:h-24" src="https://i.ibb.co/9ptRdym/Group-15.png" alt=""/>
     <div className="bg-white rounded-xl grid grid-cols-1 gap-12 lg:grid-cols-5 -mt-131">
-      <h2 className="mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Makenna Baptista
       </h2>
-      <h2 className="ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Springfield/Illinois
       </h2>
-      <h2 className="ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       25
       </h2>
-      <h2 className="ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       7th
       </h2>
-      <h2 className="pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
+      <h2 className="font-[Cinzel] pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
       </h2>
       </div>
@@ -137,19 +137,19 @@ export default function Ranking() {
       <div className="p-10 md:p-28 md:-mt-40">
     <img className="-ml-5 md:-ml-14 h-28 md:h-24" src="https://i.ibb.co/6npBBzy/Group-16.png" alt=""/>
     <div className="bg-white rounded-xl grid grid-cols-1 gap-12 lg:grid-cols-5 -mt-131">
-      <h2 className="mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] mt-24 md:mt-0 pl-10 md:pl-20 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Makenna Baptista
       </h2>
-      <h2 className="ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-10 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       Springfield/Illinois
       </h2>
-      <h2 className="ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 2xl:ml-40 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       25
       </h2>
-      <h2 className="ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
+      <h2 className="font-[Cinzel] ml-20 md:ml-0 text-md lg:text-lg 2xl:text-5xl font-bold uppercase text-[#16171D]">
       7th
       </h2>
-      <h2 className="pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
+      <h2 className="font-[Cinzel] pl-0 md:pl-5 ml-20 md:ml-0 text-md md:text-2xl 2xl:text-5xl font-bold uppercase text-[#9F8E62]">
       $450.000
       </h2>
       </div>

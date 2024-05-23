@@ -31,30 +31,30 @@ export default function Blog() {
   <div className="flex flex-row justify-center items-center">
     <div className="">
     <img className="rounded-xl h-full w-full shadow-2xl shadow-[#FF0205]" src="https://i.ibb.co/v17jkP0/image.png" alt=""/>
-      <p className="text-base text-sm lg:text-xl 2xl:text-2xl text-white -mt-16 md:-mt-14 ml-2 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
-      <span className="text-[0.70rem] lg:text-sm 2xl:text-2xl font-thin capitalize text-white ml-2">24th Oct 2022</span>
+      <p className="font-[Cinzel] text-base text-sm lg:text-xl 2xl:text-2xl text-white -mt-16 md:-mt-14 ml-2 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
+      <span className="font-[Cinzel] text-[0.70rem] lg:text-sm 2xl:text-2xl font-thin capitalize text-white ml-2">24th Oct 2022</span>
       </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center">
     <div className="">
     <img className="rounded-xl h-[10rem] md:h-[15rem] w-[200rem] -mt-2 md:-mt-40 md:ml-2 md:-ml-5 shadow-2xl shadow-[#FF0205]" src="https://i.ibb.co/m9wQYSV/image.png" alt=""/>
-    <p className="text-base text-sm lg:text-xl 2xl:text-2xl text-white -mt-16 md:-mt-14 ml-4 md:ml-2 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
-      <span className="text-[0.70rem] lg:text-sm 2xl:text-2xl font-thin capitalize text-white ml-4 md:ml-2">24th Oct 2022</span>
+    <p className="font-[Cinzel] text-base text-sm lg:text-xl 2xl:text-2xl text-white -mt-16 md:-mt-14 ml-4 md:ml-2 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
+      <span className="font-[Cinzel] text-[0.70rem] lg:text-sm 2xl:text-2xl font-thin capitalize text-white ml-4 md:ml-2">24th Oct 2022</span>
     </div>
     <div className="-ml-146 mt-147">
     <div className="">
       <img className="rounded-xl h-[8rem] md:h-[10rem] md:w-[95rem] ml-80 md:-ml-80 -mt-73 md:-mt-20 2xl:-mt-[2rem] 2xl:-ml-[45rem] shadow-2xl shadow-[#FF0205]" src="https://i.ibb.co/Gs4yC0g/image.png" alt=""/>
     </div>
     <div className="">
-    <p className="text-base text-sm lg:text-sm 2xl:text-2xl text-white ml-147 -mt-16 md:-mt-12 md:-ml-73 2xl:-ml-[44rem] 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
-      <span className="text-[0.70rem] lg:text-xs 2xl:text-2xl font-thin capitalize text-white ml-147 md:-ml-73 2xl:-ml-[44rem]">24th Oct 2022</span>
+    <p className="text-base text-sm lg:text-sm 2xl:text-2xl text-white ml-147 -mt-16 md:-mt-12 md:-ml-73 2xl:-ml-[44rem] 2xl:-mt-[6rem] font-[Cinzel]">Zelensky accuses Russia of worst crimes</p>
+      <span className="text-[0.70rem] lg:text-xs 2xl:text-2xl font-thin capitalize text-white ml-147 md:-ml-73 2xl:-ml-[44rem] font-[Cinzel]">24th Oct 2022</span>
     </div>
     <div className="">
       <img className="rounded-xl h-[8.5rem] md:h-[10rem] md:w-[95rem] ml-80 md:ml-0 mt-5 md:-mt-40 2xl:-ml-[10rem] 2xl:-mt-[8rem] shadow-2xl shadow-[#FF0205]" src="https://i.ibb.co/274MSq7/image.png" alt=""/>
       </div>
       <div className="">
-      <p className="text-base text-sm lg:text-sm 2xl:text-2xl text-white ml-147 -mt-16 md:-mt-14 md:ml-2 2xl:-ml-[9.5rem] 2xl:-mt-[6rem]">Zelensky accuses Russia of worst crimes</p>
-      <span className="text-[0.70rem] lg:text-xs 2xl:text-2xl font-thin capitalize text-white ml-147 md:ml-2 2xl:-ml-[9.5rem]">24th Oct 2022</span>
+      <p className="text-base text-sm lg:text-sm 2xl:text-2xl text-white ml-147 -mt-16 md:-mt-14 md:ml-2 2xl:-ml-[9.5rem] 2xl:-mt-[6rem] font-[Cinzel]">Zelensky accuses Russia of worst crimes</p>
+      <span className="text-[0.70rem] lg:text-xs 2xl:text-2xl font-thin capitalize text-white ml-147 md:ml-2 2xl:-ml-[9.5rem] font-[Cinzel] ">24th Oct 2022</span>
       </div>
       </div>
       </div> 
