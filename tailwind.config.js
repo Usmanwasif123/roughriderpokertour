@@ -78,6 +78,9 @@ export default {
          '148': '30rem',
          '149': '56.2rem',
          '150': '98rem',
+         '151': '75rem',
+         '152': '10.5rem',
+         '153': '100rem'
          
       },
       translate: {

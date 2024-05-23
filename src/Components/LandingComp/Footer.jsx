@@ -1,156 +1,156 @@
 export default function Footer() {
     return (
-<section className="relative p-10 bg-[#13181C]">
-    <div className='bg-[#13181C] flex flex col justify-center items-center -mt-32'>
-    <img className='h-[5rem]' src='https://i.ibb.co/nC3mS5B/image.png' alt=''/>
+<section className="relative p-10 bg-[#13181C] shadow-2xl shadow-white">
+    <div className='bg-[#13181C] border-l border-white -mt-24 ml-14 md:-mt-24 2xl:-mt-20 md:ml-110 2xl:ml-111 rounded-full rotate-90 h-[8rem] w-[9rem]'>
+    <img className='absolute h-[4rem] -rotate-90 -left-1 top-8' src='https://i.ibb.co/dG7tNpq/image-removebg-preview-2.png' alt=''/>
     </div>
   <div className="grid w-full grid-cols-1 gap-52 lg:grid-cols-3">
-  <div className="flex flex-col md:flex-row justify-center items-center h-full md:w-104 md:space-x-80 p-2">
-    <div className="-mt-40">
+  <div className="flex flex-col md:flex-row justify-center items-center h-full md:w-104 2xl:w-[160rem] md:space-x-80 p-2">
+    <div className="mt-0 md:-mt-40">
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-white mb-5">
     About Us
       </span>
-      <div className="grid w-full grid-cols-1 lg:grid-cols-2">
-      <ul className="mt-8 space-y-4 text-sm ">
+      <div className="grid w-full grid-cols-1 lg:grid-cols-2 md:space-x-4">
+      <ul className="mt-8 text-sm space-y-4 flex flex-col justify-start items-start">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md  2xl:text-xl" href="/">
               Betting Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md" href="/">
               Terms & Conditions
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Play Responsibly </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Play Responsibly </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
           </ul>
-          <ul className="mt-8 space-y-4 text-sm ml-5">
+          <ul className="mt-8 -ml-0 md:ml-0 space-y-4 text-sm">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Privacy Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Play Responsibly
               </a>
             </li>
 
-            <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+            <li className="">
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Privacy Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Privacy Policy </a>
             </li>
           </ul>
           </div>
       </div>
-      <div className="-mt-40">
+      <div className="mt-5 md:-mt-40">
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-white mb-5">
     About Us
       </span>
-      <div className="grid w-full grid-cols-1 lg:grid-cols-2">
-      <ul className="mt-8 space-y-4 text-sm ">
+      <div className="grid w-full grid-cols-1 lg:grid-cols-2 md:space-x-6">
+      <ul className="mt-8 space-y-4 text-sm flex flex-col justify-start items-start">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Betting Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Terms & Conditions
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Play Responsibly </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Play Responsibly </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
           </ul>
-          <ul className="mt-8 space-y-4 text-sm ml-5">
+          <ul className="mt-8 -ml-0 md:ml-0  space-y-4 text-sm">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Privacy Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Play Responsibly
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Privacy Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Privacy Policy </a>
             </li>
           </ul>
           </div>
       </div>
-      <div className="-mt-40">
+      <div className="mt-5 md:-mt-40">
     <span className="text-2xl lg:text-4xl 2xl:text-5xl font-bold capitalize text-white mb-5">
     About Us
       </span>
-      <div className="grid w-full grid-cols-1 lg:grid-cols-2">
-      <ul className="mt-8 space-y-4 text-sm ">
+      <div className="grid w-full grid-cols-1 lg:grid-cols-2 md:space-x-2">
+      <ul className="mt-8 space-y-4 text-sm flex flex-col justify-start items-start ">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Betting Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Terms & Conditions
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Play Responsibly </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Play Responsibly </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
           </ul>
-          <ul className="mt-8 space-y-4 text-sm ml-5">
+          <ul className="mt-8 -ml-0 md:ml-0 space-y-4 text-sm">
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Privacy Policy
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/">
+              <a className="text-white text-md 2xl:text-xl" href="/">
               Play Responsibly
               </a>
             </li>
 
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Cookie Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Cookie Policy </a>
             </li>
             <li>
-              <a className="text-white 2xl:text-xl" href="/"> Privacy Policy </a>
+              <a className="text-white text-md 2xl:text-xl" href="/"> Privacy Policy </a>
             </li>
           </ul>
           </div>
       </div>
       </div>
-      <div class="mt-80 border-t border-gray-100 pt-1 px-100 -ml-101"></div>
-      <div className="mt-80">
-      <ul className="mt-8 mb-10 flex justify-center gap-6 sm:justify-start md:gap-8 -ml-115">
+      <div className="-mt-36 md:mt-80 border-t border-gray-100 pt-1 px-56 md:px-100 2xl:px-[90rem] 2xl:-ml-[79rem] -ml-152 md:-ml-101"></div>
+      <div className="mt-0 md:mt-80">
+      <ul className="-mt-72 md:mt-8 mb-10 flex justify-center gap-6 sm:justify-start md:gap-8 ml-0 md:-ml-115 2xl:-ml-[45rem]">
           <li>
             <a
               href="#"
@@ -219,7 +219,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-      <p className="text-sm text-white md:text-lg 2xl:text-xl -ml-116">&copy; Copyright © 2024 ROUGHRIDER POKER TOUR . All rights reserved. </p>
+      <p className="text-sm text-white md:text-lg 2xl:text-xl ml-5 md:-ml-116 2xl:-ml-[55rem]">&copy; Copyright © 2024 ROUGHRIDER POKER TOUR . All rights reserved. </p>
       </div>
   </div>
 </section>
