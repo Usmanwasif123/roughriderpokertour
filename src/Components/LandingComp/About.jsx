@@ -68,11 +68,11 @@ export default function About() {
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-142 ml-44 2xl:ml-65 2xl:-mt-32 font-bold uppercase text-white 2xl:text-xl">Late Registration Close Time</span>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 font-bold uppercase text-white 2xl:text-xl">Late Registration Close Time</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white font-bold 2xl:text-xl">Event Days</span>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white font-bold 2xl:text-xl">Event Days</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl">
         5% slots
     </p>
@@ -101,11 +101,11 @@ export default function About() {
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-142 ml-44 2xl:ml-65 2xl:-mt-32 font-bold uppercase text-white 2xl:text-xl">Late Registration Close Time</span>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 font-bold uppercase text-white 2xl:text-xl">Late Registration Close Time</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white font-bold 2xl:text-xl">Event Days</span>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white font-bold 2xl:text-xl">Event Days</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
@@ -134,112 +134,11 @@ export default function About() {
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
-            read more </a>
-    </div>
-    </div>
-        </div>
-      </div>
-    </div>
-    <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-3">
-      <div className="mt-5">
-      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
-      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
-    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
-    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
-    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
-        Vip 01
-    </h2>
-    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
-            read more </a>
-    </div>
-    </div>
-        </div>
-      </div>
-      <div className="mt-5">
-      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
-      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
-    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
-    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
-    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
-        Vip 01
-    </h2>
-    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-mdsm px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
-            read more </a>
-    </div>
-    </div>
-        </div>
-      </div>
-      <div className="mt-5">
-      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
-      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
-    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
-    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
-    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
-        Vip 01
-    </h2>
-    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
@@ -270,44 +169,11 @@ export default function About() {
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65  uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65  uppercase text-white 2xl:text-xl font-bold">Event Days</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65  uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
-            read more </a>
-    </div>
-    </div>
-        </div>
-      </div>
-      <div className="mt-5">
-      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
-      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
-    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
-    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
-    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
-        Vip 01
-    </h2>
-    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
-    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
-        5% slots
-    </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
@@ -336,11 +202,145 @@ export default function About() {
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 -mt-142 ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
-    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-0 ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-mdsm px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+            read more </a>
+    </div>
+    </div>
+        </div>
+      </div>
+      <div className="mt-5">
+      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
+      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
+    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
+    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
+    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
+        Vip 01
+    </h2>
+    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+            read more </a>
+    </div>
+    </div>
+        </div>
+      </div>
+    </div>
+    <div className="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-3">
+      <div className="mt-5">
+      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
+      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
+    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
+    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
+    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
+        Vip 01
+    </h2>
+    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65  uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65  uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65  uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+            read more </a>
+    </div>
+    </div>
+        </div>
+      </div>
+      <div className="mt-5">
+      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
+      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
+    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
+    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
+    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
+        Vip 01
+    </h2>
+    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent 2xl:text-xl text-sm lg:text-md py-3 mx-5 mt-10 text-center font-medium text-white">
+            read more </a>
+    </div>
+    </div>
+        </div>
+      </div>
+      <div className="mt-5">
+      <div className="inline-flex items-center justify-center flex-shrink-0 mb-5 bg-transparent rounded-xl">
+      <div className="rounded-lg ml-0 md:ml-4 mr-0 md:mr-4">
+    <img className="h-[20rem] md:h-[30rem] z-10 rounded-xl" src="https://i.ibb.co/zNHsdqb/Rectangle-310.png" alt=""/>
+    <div className="z-20 -mt-64 flex flex-col justify-start align-start">
+    <h2 className="font-[Cinzel] text-lg font-bold lg:text-2xl p-5 uppercase text-white 2xl:text-3xl">
+        Vip 01
+    </h2>
+    <p className="font-[Inter] text-xs lg:text-md px-5 uppercase text-white 2xl:text-xl">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Read More
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Start Date & Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 mt-5 uppercase text-white 2xl:text-xl font-bold">Buy in Amount</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.55rem] lg:text-md px-5 -mt-20 md:-mt-[5.6rem] ml-44 2xl:ml-65 2xl:-mt-32 uppercase text-white 2xl:text-xl font-bold">Late Registration Close Time</span>
+    <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
+        5% slots
+    </p>
+    <span className="font-[Montserrat] text-[0.65rem] lg:text-md px-5 md:mt-[0.5rem] ml-44 2xl:ml-65 uppercase text-white 2xl:text-xl font-bold">Event Days</span>
     <p className="font-[Cinzel] text-[0.50rem] lg:text-sm px-5 ml-44 2xl:ml-65 uppercase text-white 2xl:text-lg">
         5% slots
     </p>
