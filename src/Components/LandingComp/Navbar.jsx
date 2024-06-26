@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <nav className="">
-      <div className="w-full flex flex-wrap items-center justify-between p-4 relative z-20 bg-transparent">
+      <div className="w-full flex flex-wrap items-center justify-between p-4 relative z-20">
         <a href="/">
           <img className="h-16 w-auto" src="https://i.ibb.co/ssSQtW1/image.png" alt="Company Logo" />
         </a>
@@ -59,6 +59,14 @@ function Navbar() {
               <a href="/" className="font-[Montserrat] block py-2 pl-0 pr-0 text-xl md:text-2xl 2xl:text-4xl rounded md:hover:bg-transparent md:border-0 md:hover:text-[#FFE9CA] md:p-0 text-white md:hover:text-[#FFE9CA] focus:text-[#FFE9CA] active:text-[#FFE9CA] hover:text-white uppercase">faq & support</a>
             </li>
           </ul>
+        </div>
+        <div>
+          <a href='/edit-your-profile'><img className='cursor-pointer'
+           src='https://i.ibb.co/cXwcdnh/Group.png' alt='user' />
+           </a>
+        </div>
+        <div>
+          <img src='https://i.ibb.co/ctSxybB/Group-5108.png' alt='user' />
         </div>
       </div>
     </nav>
