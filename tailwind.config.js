@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   content: [
     "./index.html",
@@ -114,7 +115,9 @@ export default {
       },
       inset: {
         '100': '38rem',
-        
+      },
+      fontFamily: {
+        'barlow': ['"Barlow"', ...defaultTheme.fontFamily.sans],
       },
       animation: {
         ["infinite-slider"]: "infiniteSlider 20s linear infinite",

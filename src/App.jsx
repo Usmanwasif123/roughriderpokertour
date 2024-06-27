@@ -1,6 +1,7 @@
 import EditProfile from './Pages/EditProfile';
 import Home from './Pages/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import OurTournament from './Pages/OurTournament';
 
 
 
@@ -9,7 +10,8 @@ function App() {
     <Router>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/edit-your-profile' element={<EditProfile/>}/>
+        <Route path='/edit-your-profile' element={<EditProfile/>}/>
+        <Route path='our-tournament' element={<OurTournament/>}/>
       </Routes>
     </Router>
   );

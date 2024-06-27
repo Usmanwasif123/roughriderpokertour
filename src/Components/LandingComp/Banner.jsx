@@ -1,4 +1,18 @@
+import { useState } from "react";
+import LoginModule from "../LoginComp/Login";
+
 export default function Banner() {
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+
+  const handleLoginClick = (e) => {
+    e.preventDefault(); // Prevents the default link navigation
+    setIsLoginOpen(true);
+  };
+
+  const handleCloseClick = () => {
+    setIsLoginOpen(false);
+  };
+
     return (
   <section className="relative mx-auto max-w-full sm:static -mt-98 md:-mt-24 2xl:-mt-116 z-10">
   <div>
@@ -31,8 +45,10 @@ export default function Banner() {
         Your Poker Tour Starts Here!
         </h1>
         <p className="my-3 md:my-5 font-[Cinzel]  capitalize text-[#E5B6B6] text-sm lg:text-2xl 2xl:text-4xl">Win a once-in-a-lifetime exclusive Experience!</p>
-        <a href="/" className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black md:my-4 font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent text-md lg:text-lg 2xl:text-xl px-8 py-3 text-center font-medium text-white">
-            sign up </a>
+        <button onClick={handleLoginClick} className="hover:bg-[#FFE9CA] hover:border-[#FFE9CA] hover:text-black md:my-4 font-[Cinzel] inline-block uppercase rounded-[0.8rem] border border-[#FE0308] bg-transparent text-md lg:text-lg 2xl:text-xl px-8 py-3 text-center font-medium text-white">
+            sign up 
+        </button>
+        {isLoginOpen && <LoginModule onClose={handleCloseClick} />}
       </div>
     </div>
   </div>
