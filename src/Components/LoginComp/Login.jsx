@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RegisterModule from "../RegisterComp/Register";
+import RegisterModule from "../RegisterComp/Register"; // Adjust the path as per your project structure
 import { auth, googleAuthProvider } from "../../GoogleAuth/Firebase"; // Adjust the path as per your project structure
 
 const Login = ({ onClose }) => {
@@ -20,6 +20,7 @@ const Login = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    onClose();
 
     if (!submitting) {
       setSubmitting(true); // Set submitting flag to true
@@ -44,7 +45,7 @@ const Login = ({ onClose }) => {
         // Sign in with email and password
         await auth.signInWithEmailAndPassword(email, password);
         console.log("Login successful");
-        onClose();
+        onClose(); // Close login modal after successful login
       } catch (error) {
         console.error("Error signing in with email and password", error);
         // Handle error display or logging
@@ -59,7 +60,7 @@ const Login = ({ onClose }) => {
       // Sign in with Google popup
       await auth.signInWithPopup(googleAuthProvider);
       console.log("Login with Google successful");
-      onClose();
+      onClose(); // Close login modal after successful Google login
     } catch (error) {
       console.error("Error signing in with Google", error);
       // Handle error display or logging
@@ -136,6 +137,7 @@ const Login = ({ onClose }) => {
           </div>
         </form>
       </div>
+      {/* Ensure RegisterModule is closed when `isRegisterOpen` is false */}
       {isRegisterOpen && <RegisterModule onClose={handleCloseClick} />}
     </div>
   );
