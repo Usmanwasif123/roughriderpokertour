@@ -36,29 +36,78 @@ const tournamentData = [
   { category: 'past', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
   { category: 'past', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
   { category: 'past', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'upcoming', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'upcoming', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'upcoming', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'ongoing', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'ongoing', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'ongoing', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'ongoing', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'ongoing', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'ongoing', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'ongoing', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'ongoing', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'ongoing', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'ongoing', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'ongoing', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'ongoing', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'live', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'live', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'live', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'live', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'live', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'live', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'live', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'live', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'live', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
+  { category: 'live', name: 'The Wild Card', startTime: '12:00', endTime: '12:40', players: 542, prize: '$1500', entryFee: '$50', bonus: 'Yes'},
+  { category: 'live', name: 'Ace Showdown', startTime: '13:00', endTime: '13:30', players: 320, prize: '$1000', entryFee: '$30', bonus: 'No'},
+  { category: 'live', name: 'King\'s Cupshow', startTime: '14:00', endTime: '14:45', players: 400, prize: '$2000', entryFee: '$70', bonus: 'Yes'},
   
   
 ];
 
 const OurTournament = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [activeButton, setActiveButton] = useState('past'); // Default to 'past' events
   const [activeCategory, setActiveCategory] = useState('past'); // State to track active category
   const itemsPerPage = 10; // Number of items per page
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = tournamentData.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = tournamentData.filter(tournament => tournament.category === activeCategory).slice(indexOfFirstItem, indexOfLastItem);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
-  const handleButtonClick = (status) => {
-    setActiveButton(status);
-    setCurrentPage(1); // Reset to first page on button click
-  };
-
+  
   // Function to filter tournaments based on category
   const filterTournamentsByCategory = (category) => {
     return tournamentData.filter(tournament => tournament.category === category);
@@ -115,7 +164,7 @@ const OurTournament = () => {
         Ongoing Events
       </button>
       <button
-        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'live' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
+        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'live' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-[#FE0308]'}`}
         onClick={() => handleCategoryChange('live')}
       >
         Live
@@ -152,7 +201,7 @@ const OurTournament = () => {
     {/* Pagination */}
     <div className='flex flex-row justify-between items-center border-t-2 border-grey-200'>
         <div className='mt-3 text-white font-[Oswald] font-bold text-lg uppercase'>
-          <h1>{tournamentData.length} Tournament results</h1>
+          <h1>{tournamentData.filter(tournament => tournament.category === activeCategory).length} Tournament results</h1>
         </div>
         <div className='mt-3'>
           <PaginationGroup totalItems={tournamentData.length} onPageChange={handlePageChange} />
