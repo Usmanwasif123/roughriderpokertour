@@ -230,7 +230,7 @@ const Editprofile = () => {
             </div>
             <div className='flex flex-row justify-end gap-6 m-5'>
               <button className='border-2 border-[#FE0308] px-10 py-3 rounded capitalize text-[#000000] font-medium' type="button">cancel</button>
-              <button className='border-2 border-[#FE0308] bg-[#FE0308] rounded px-10 py-3 capitalize text-white font-medium' type="submit">Save Changes</button>
+              <button className='border-2 border-[#FE0308] bg-[#FE0308] rounded px-10 py-3 capitalize text-white font-medium cursor-progress' type="submit">Save Changes</button>
             </div>
           </form>
         </div>
