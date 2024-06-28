@@ -1,6 +1,8 @@
 import React from 'react'
 
 const TournamentRow = ({ data }) => {
+  if (!data) return null; // Add null check to handle undefined data
+
   return (
     <div className='flex flex-row justify-between items-center gap-5 border-t border-gray-200'>
     <div className='flex flex-row mb-2 text-white font-semibold capitalize'>
