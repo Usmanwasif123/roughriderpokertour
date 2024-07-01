@@ -86,14 +86,14 @@ const Register = ({ onClose }) => {
     <div className="fixed inset-0 flex z-40 items-center justify-center bg-gray-900 bg-opacity-75">
       <div className="bg-[#565758] px-4 pb-0 pt-1 rounded-xl shadow-lg flex flex-col">
         <div className="flex flex-row justify-center items-center">
-          <h2 className="text-4xl mb-4 text-[#F3D284]">Register</h2>
+          <h2 className="text-xl md:text-2xl lg:text-4xl mb-4 text-[#F3D284]">Register</h2>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-white text-xl capitalize">First Name</label>
+            <label className="block text-white text-sm md:text-md lg:text-xl capitalize">First Name</label>
             <input
               type="text"
-              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-lg ${
+              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-xs md:text-sm lg:text-lg ${
                 errors.firstName ? 'border-red-500' : ''
               }`}
               placeholder="John"
@@ -107,10 +107,10 @@ const Register = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-white text-xl capitalize">Last Name</label>
+            <label className="block text-white text-sm md:text-md lg:text-xl capitalize">Last Name</label>
             <input
               type="text"
-              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-lg ${
+              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-xs md:text-sm lg:text-lg ${
                 errors.lastName ? 'border-red-500' : ''
               }`}
               placeholder="Doe"
@@ -124,10 +124,10 @@ const Register = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-white text-xl capitalize mb-1">E-mail</label>
+            <label className="block text-white text-sm md:text-md lg:text-xl capitalize mb-1">E-mail</label>
             <input
               type="email"
-              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-lg ${
+              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-xs md:text-sm lg:text-lg ${
                 errors.email || emailExistsError ? 'border-red-500' : ''
               }`}
               placeholder="Enter your email"
@@ -144,10 +144,10 @@ const Register = ({ onClose }) => {
             )}
           </div>
           <div className="mb-4">
-            <label className="block text-white text-xl capitalize mb-1">Password</label>
+            <label className="block text-white text-sm md:text-md lg:text-xl capitalize mb-1">Password</label>
             <input
               type="password"
-              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-lg ${
+              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-xs md:text-sm lg:text-lg ${
                 errors.password ? 'border-red-500' : ''
               }`}
               placeholder="Enter your password"
@@ -159,15 +159,15 @@ const Register = ({ onClose }) => {
             {errors.password && (
               <p className="text-red-500 text-sm mt-1">{errors.password}</p>
             )}
-            <label className="block flex justify-start text-[#90BEFF] text-md lowercase">
+            <label className="block flex justify-start text-[#90BEFF] text-sm md:text-md lg:text-xl lowercase">
               Must contain 8 characters.
             </label>
           </div>
           <div className="mb-4">
-            <label className="block text-white text-xl capitalize mb-1">Confirm Password</label>
+            <label className="block text-white text-sm md:text-md lg:text-xl capitalize mb-1">Confirm Password</label>
             <input
               type="password"
-              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-lg ${
+              className={`w-full px-3 py-1.5 border border-[#353637] rounded bg-[#353637] text-white text-xs md:text-sm lg:text-lg ${
                 errors.confirmPassword ? 'border-red-500' : ''
               }`}
               placeholder="Confirm your password"
@@ -183,12 +183,12 @@ const Register = ({ onClose }) => {
           <div className="flex flex-col justify-between items-center py-3">
             <button
               type="submit"
-              className="w-full px-5 py-2 bg-[#F3D284] rounded-3xl rounded text-xl text-black"
+              className="w-full px-5 py-2 bg-[#F3D284] rounded-3xl rounded text-sm md:text-md lg:text-xl text-black"
             >
               Create Account
             </button>
           </div>
-          <div className="text-md text-white initial py-2 px-2 flex justify-between items-center">
+          <div className="text-sm md:text-md lg:text-xl text-white initial py-2 px-2 flex justify-between items-center">
             <h1>
               By continuing, you agree to our{' '}
               <span className="text-[#3C9AFB] underline">Terms of Service</span> and{' '}
