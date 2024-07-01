@@ -124,64 +124,63 @@ const OurTournament = () => {
     <div className="px-2 md:px-10 bg-[#13181C]">
     <Navbar/>
     </div>
-    <section className="relative mx-auto max-w-full sm:static -mt-45 md:-mt-24 2xl:-mt-116 z-10">
-    <div>
-    <img src='https://i.ibb.co/k44fkvW/roulette-wheel-glimmers-amidst-bustling-casino-floor-1.png' className="h-[50rem] w-full md:h-full" alt='banner'/>
-    <div className="grid w-full grid-cols-1 mx-auto lg:grid-cols-1">
-      <div className="z-20 mt-80 md:-mt-100 flex flex-col justify-center items-center">
-        <h1 className="my-3 md:my-5 font-[Cinzel] text-xl lg:text-6xl uppercase 2xl:text-7xl font-bold leading-none tracking-tighter text-white uppercase">
+    <section className="relative mx-auto max-w-full">
+  <div className="relative">
+    <img
+      src="https://i.ibb.co/k44fkvW/roulette-wheel-glimmers-amidst-bustling-casino-floor-1.png"
+      className="h-64 w-full md:h-[50rem] lg:h-full"
+      alt="banner"
+    />
+    <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+      <h1 className="my-3 md:my-5 font-[Cinzel] text-3xl md:text-5xl lg:text-6xl xl:text-7xl uppercase font-bold leading-none tracking-tighter">
         our Tournament
-        </h1>
-        <div className='text-white uppercase text-lg font-[Barlow] cursor-pointer'>
-        <h2>
-            <span className='text-[#FF0052]'>Home</span> / Tournament
-        </h2>
-        </div>
-        
-      </div>
+      </h1>
+      <h2 className="text-base md:text-2xl lg:text-4xl cursor-pointer uppercase font-[Barlow]">
+        <span className="text-[#FF0052]">Home</span> / Tournament
+      </h2>
     </div>
   </div>
-  </section>
+</section>
     <div className='bg-[#13181C] w-full flex flex-col justify-between items-center p-10'>
-    <div className='bg-[#F3D284] w-3/4 mt-8 p-6 grid grid-cols-1 gap-6 sm:grid-cols-1 flex flex-col rounded-t-lg'>
-    <div className='flex flex-row gap-12 justify-center items-center'>
+    <div className='bg-[#F3D284] w-full md:w-3/4 p-6 grid grid-cols-1 gap-0 md:gap-6 sm:grid-cols-1 flex flex-col rounded-t-lg'>
+    <div className='flex flex-row gap-2 md:gap-12 justify-center items-center'>
     <button
-        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'past' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
+        className={`px-2 md:px-3 py-1 rounded uppercase font-bold text-sm md:text-md font-[barlow] ${activeCategory === 'past' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
         onClick={() => handleCategoryChange('past')}
       >
         Past Events
       </button>
       <button
-        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'upcoming' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
+        className={`px-2 md:px-3 py-1 rounded uppercase font-bold text-sm md:text-md font-[barlow] ${activeCategory === 'upcoming' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
         onClick={() => handleCategoryChange('upcoming')}
       >
         Upcoming Events
       </button>
       <button
-        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'ongoing' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
+        className={`px-2 md:px-3 py-1 rounded uppercase font-bold text-sm md:text-md font-[barlow] ${activeCategory === 'ongoing' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-black'}`}
         onClick={() => handleCategoryChange('ongoing')}
       >
         Ongoing Events
       </button>
       <button
-        className={`px-3 py-1 rounded uppercase font-bold text-md font-[barlow] ${activeCategory === 'live' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-[#FE0308]'}`}
+        className={`px-2 md:px-3 py-1 rounded uppercase font-bold text-sm md:text-md font-[barlow] ${activeCategory === 'live' ? 'text-white bg-[#FE0308] border-[#FE0308]' : 'text-[#FE0308]'}`}
         onClick={() => handleCategoryChange('live')}
       >
         Live
       </button>
     </div>
     </div>
-    <div className='bg-[#0E1215] w-3/4 p-5 mb-10 grid grid-cols-1 gap-6 sm:grid-cols-1 flex flex-col rounded-b-lg'>
+    <div className='bg-[#0E1215] w-full md:w-3/4 p-4 mb-10 grid grid-cols-1 gap-6 sm:grid-cols-1 flex flex-col rounded-b-lg'>
         <div className='flex flex-row justify-between items-center'>
-        <div className='flex flex-row mb-2 text-white font-bold uppercase'>
+        <div className='flex flex-row lg:mb-2 gap-1 px-1 md:px-0 md:gap-0 text-white font-bold text-xs md:text-md lg:text-lg uppercase'>
             <h1>{['Tournament']}</h1>
         </div>
-        <div className='flex flex-row gap-4 text-white font-bold uppercase'>
+        <div className='flex flex-row gap-1.5 md:gap-4 px-1 md:px-0 text-white text-xs md:text-md lg:text-lg font-bold uppercase'>
            {['Starts In', 'Ends In', 'Players', 'Prize($)'].map(item => (
         <h1 key={item}>{item}</h1>
       ))}
         </div>
-        <div className='flex flex-row gap-[3rem] text-white font-bold uppercase'>
+        <div className='flex flex-row gap-1 md:gap-2 lg:gap-[3rem] px-1 md:px-0 text-white text-xs md:text-md lg:text-lg font-bold uppercase'>
         {['Entry Fee', 'Bonus'].map(item => (
         <h1 key={item}>{item}</h1>
       ))}
@@ -199,8 +198,8 @@ const OurTournament = () => {
 
       
     {/* Pagination */}
-    <div className='flex flex-row justify-between items-center border-t-2 border-grey-200'>
-        <div className='mt-3 text-white font-[Oswald] font-bold text-lg uppercase'>
+    <div className='flex flex-row justify-between items-center'>
+        <div className='mt-3 text-white font-[Oswald] font-bold uppercase text-sm md:text-lg'>
           <h1>{tournamentData.filter(tournament => tournament.category === activeCategory).length} Tournament results</h1>
         </div>
         <div className='mt-3'>
