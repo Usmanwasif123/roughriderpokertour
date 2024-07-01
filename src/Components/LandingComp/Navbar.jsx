@@ -4,11 +4,17 @@ function Navbar() {
   
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [showContent, setShowContent] = useState(false);
+  const [showProfileContent, setShowProfileContent] = useState(false);
+  const [showNotifiContent, setShowNotifiContent] = useState(false);
 
-  const toggleContent = (e) => {
+  const toggleProfileContent = (e) => {
     e.preventDefault(); // Prevents the default behavior of refreshing the page
-    setShowContent(!showContent);
+    setShowProfileContent(!showProfileContent);
+};
+
+const toggleNotifiContent = (e) => {
+  e.preventDefault(); // Prevents the default behavior of refreshing the page
+  setShowNotifiContent(!showNotifiContent);
 };
 
   const toggleMenu = () => {
@@ -68,10 +74,10 @@ function Navbar() {
           </ul>
         </div>
         <div className='relative inline-block'>
-          <a href='/' onClick={toggleContent} className='cursor-pointer'>
+          <a href='/' onClick={toggleProfileContent} className='cursor-pointer'>
           <img src='https://i.ibb.co/cXwcdnh/Group.png' alt='user' />
            </a>
-           {showContent && (
+           {showProfileContent && (
                 <div className="absolute -left-40 bg-[#F3D284] w-5/3 shadow-lg px-1.5 py-5 mt-1.5 rounded-lg text-sm">
                 <div className="font-bold flex gap-1 flex-col items-center justify-center">
                     <div className='flex flex-row items-center'>
@@ -79,7 +85,11 @@ function Navbar() {
                         <img src='https://i.ibb.co/f4hyV98/user.png' className='h-6 w-6 ' alt='user icon'/>
                     </div>
                     <div>
-                    <h2 className="text-black text-md">Manage My Account</h2>
+                    <h2 className="text-black text-md">
+                      <a href='/edit-your-profile'>
+                      Manage My Account
+                      </a>
+                      </h2>
                     </div>
                     </div>
                     <div className='flex flex-row items-center'>
@@ -102,8 +112,28 @@ function Navbar() {
             </div>
             )}
         </div>
-        <div>
+        <div className='relative inline-block'>
+        <a href='/' onClick={toggleNotifiContent} className='cursor-pointer'>
           <img src='https://i.ibb.co/ctSxybB/Group-5108.png' alt='notification' />
+          </a>
+          {showNotifiContent && (
+            <div className="absolute -left-52 z-50 bg-[#F3D284] w-60 shadow-lg px-2 pt-2 pb-32 mt-1.5 rounded-xl text-sm">
+            <div className="flex flex-col justify-between items-center bg-[#F0E0B9] rounded-xl p-2">
+              <div className='flex flex-row items-center'>
+              <div className='bg-black rounded p-1'>
+              <img src='https://i.ibb.co/Hn66fTR/imgpsh-fullsize-anim-9.png' height={20} width={20} alt='rpt-logo' />
+              </div>
+              <div className='flex flex-row justify-between items-center gap-14 m-1'>
+              <h1 className='font-bold text-lg'>RPT</h1> 
+              <span className='font-normal text-md'>10min ago</span>
+              </div>
+              </div>
+              <div className='mt-2 p-1 flex justify-start items-center'>
+                <p>is simply dummy text of the printing</p>
+              </div>
+            </div>
+        </div>
+        )}
         </div>
       </div>
     </nav>
